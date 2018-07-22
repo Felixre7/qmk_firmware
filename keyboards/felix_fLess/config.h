@@ -45,6 +45,15 @@
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
 
+/* allows retro tapping, this sends the held key if no other key is pressed*/
+#define RETRO_TAPPING
+
+/* defines the length of the hold in ms */
+#define TAPPING_TERM 150
+
+/* allows more than one key to be sent per scan */
+#define QMK_KEYS_PER_SCAN 2
+
 /* there is no rgb underglow by default. */
 #define RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
