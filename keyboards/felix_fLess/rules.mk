@@ -58,4 +58,4 @@ BACKLIGHT_ENABLE = no  # Enable keyboard backlight functionality
  UNICODE_ENABLE = no
  BLUETOOTH_ENABLE = no # Enable bluetooth with Adafruit EZ-Key HID
  SPLIT_KEYBOARD = no
- TAP_DANCE_ENABLE = yes # Enables the tap dance functionality
+ TAP_DANCE_ENABLE = no # Enables the tap dance functionality
