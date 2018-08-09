@@ -50,6 +50,9 @@
 /* allows retro tapping, this sends the held key if no other key is pressed*/
 #define RETRO_TAPPING
 
+/* better for fast typists, instantly executes any mod keys rather than waiting for tapping term */
+#define PERMISSIVE_HOLD
+
 /* defines the length of the hold in ms */
 #define TAPPING_TERM 150
 
