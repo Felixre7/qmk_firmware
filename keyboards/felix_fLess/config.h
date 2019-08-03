@@ -29,7 +29,7 @@
 #define BACKLIGHT_LEVELS 5
 
 /* Set 0 if debouncing isn't needed */
-#define DEBOUNCING_DELAY 5
+#define DEBOUNCING_DELAY 1
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
@@ -51,13 +51,13 @@
 #define RETRO_TAPPING
 
 /* better for fast typists, instantly executes any mod keys rather than waiting for tapping term */
-#define PERMISSIVE_HOLD
+//#define PERMISSIVE_HOLD
 
 /* defines the length of the hold in ms */
-#define TAPPING_TERM 150
+#define TAPPING_TERM 175
 
 /* allows more than one key to be sent per scan */
-#define QMK_KEYS_PER_SCAN 2
+//#define QMK_KEYS_PER_SCAN 2
 
 /* there is no rgb underglow by default. */
 #define RGB_DI_PIN
