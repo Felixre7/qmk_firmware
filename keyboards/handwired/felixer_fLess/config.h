@@ -1,6 +1,4 @@
-#ifndef CONFIG_H
-#define CONFIG_H
-
+# pragma once
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
@@ -59,12 +57,12 @@
 /* allows more than one key to be sent per scan */
 //#define QMK_KEYS_PER_SCAN 2
 
+
 /* there is no rgb underglow by default. */
-#define RGB_DI_PIN
+/*#define RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 16
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
-
-#endif
+*/
