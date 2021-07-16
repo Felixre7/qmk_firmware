@@ -25,7 +25,7 @@
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
-#define SOFT_SERIAL_PIN D0 // or D1, D2, D3, E6
+//#define SOFT_SERIAL_PIN D0 // or D1, D2, D3, E6
 
 #define BACKLIGHT_PIN C6
 #define BACKLIGHT_LEVELS 5
@@ -185,4 +185,4 @@
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 1
 
-#endif
+//#endif
