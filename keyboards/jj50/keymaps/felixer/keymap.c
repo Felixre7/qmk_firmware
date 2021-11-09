@@ -1,5 +1,5 @@
 /*
-Copyright 2020 Guillaume Gérard
+Copyright 2021 Carlos Murphy
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,13 +23,6 @@ enum layers {
     _RAISE,
     _ADJUST,
     _FN
-};
-
-enum keycodes {
-    QWERTY = SAFE_RANGE,
-    WORKMAN,
-    COLEMAK,
-    DVORAK
 };
 
 #define FN    MO(_FN)
@@ -107,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |------+------+------+------+------+------+------+------+------+------+------+------|
      * |      | Reset|      |      |      |      |      |      |      |      |      |  Del |
      * |------+------+------+------+------+-------------+------+------+------+------+------|
-     * |CPSLCK|      |      |      |      |      |      |Qwerty|Workmn|Colemk|Dvorak|      |
+     * |CPSLCK|      |      |      |      |      |      |      |      |      |      |      |
      * |------+------+------+------+------+------|------+------+------+------+------+------|
      * |      |      |      |      |      |      |      |      |      |      |      |      |
      * |------+------+------+------+------+------+------+------+------+------+------+------|
