@@ -1,5 +1,4 @@
-# pragma once
-#include "config_common.h"
+#pragma once
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
@@ -27,7 +26,7 @@
 #define BACKLIGHT_LEVELS 5
 
 /* Set 0 if debouncing isn't needed */
-#define DEBOUNCING_DELAY 1
+#define DEBOUNCE 1
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
