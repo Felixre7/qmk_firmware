@@ -21,9 +21,6 @@
 )
 */
 
-/* prevent stuck modifiers */
-#define PREVENT_STUCK_MODIFIERS
-
 /* allows retro tapping, this sends the held key if no other key is pressed*/
 #define RETRO_TAPPING
 
