@@ -1,25 +1,5 @@
 #pragma once
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    Murph Inc.
-#define PRODUCT         Felix1
-#define DESCRIPTION     main + numpad.
-
-/* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 19
-
-/* key matrix pins */
-#define MATRIX_ROW_PINS { F7, F6, F5, F4, F3, F2 }
-#define MATRIX_COL_PINS { C7, C6, C5, C4, C3, C2, C1, C0, E1, E0, D7, F0, D5, D4, D3, D2 ,D1, D0, B7 }
-#define UNUSED_PINS {}
-
-/* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
-
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
