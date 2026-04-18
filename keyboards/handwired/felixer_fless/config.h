@@ -1,10 +1,5 @@
 #pragma once
 
-/* number of backlight levels */
-/* Not sure what pin controls the backlighting, need help for this. */
-#define BACKLIGHT_PIN
-#define BACKLIGHT_LEVELS 5
-
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 1
 
