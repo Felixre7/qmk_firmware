@@ -1,25 +1,5 @@
 #pragma once
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    Murph Inc.
-#define PRODUCT         Felix1
-#define DESCRIPTION     main + numpad - fKeys.
-
-/* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 19
-
-/* key matrix pins */
-#define MATRIX_ROW_PINS { F3, F2, F1, F0, F7 }
-#define MATRIX_COL_PINS { C5, C4, C3, C2, C1, C0, F6, E6, B5, E1, E0, D7, D5, D4, D3, D2 ,D1, D0, B7 }
-#define UNUSED_PINS {}
-
-/* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
-
 /* number of backlight levels */
 /* Not sure what pin controls the backlighting, need help for this. */
 #define BACKLIGHT_PIN
