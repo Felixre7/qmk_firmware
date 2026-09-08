@@ -29,6 +29,10 @@ enum layers {
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 
+bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
+  return keycode == MT(MOD_RSFT, KC_ENT);
+}
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Qwerty

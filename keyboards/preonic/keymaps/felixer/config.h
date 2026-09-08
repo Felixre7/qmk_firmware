@@ -1,5 +1,7 @@
 #pragma once
 
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PREONIC_SOUND)
     // #define STARTUP_SONG SONG(NO_SOUND)
